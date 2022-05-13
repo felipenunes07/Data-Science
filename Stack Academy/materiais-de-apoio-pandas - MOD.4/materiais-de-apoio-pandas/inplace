@@ -1,0 +1,154 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Importando o Pandas.\n",
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Lendo uma base de dados no formato .csv.\n",
+    "# o parâmetro sep é usado para definir qual o separador entre os dados.\n",
+    "# o parâmetro header informo em qual linha está minhas colunas ou se elas não existem.\n",
+    "# Se não existe colunas (header=None) o pandas dará um número para cada atributo da base.\n",
+    "arquivo = 'kc_house_data.csv'\n",
+    "\n",
+    "dataset = pd.read_csv(arquivo, sep=',' ,header=0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Imprimindo o tipo da variável dataset\n",
+    "# Dataframe é um estrutura de dados onde linhas podem ter colunas de diferentes tipos.\n",
+    "type(dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Metodo head() imprime as 5 linhas iniciais do dataframe.\n",
+    "dataset.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# O parâmetro index_col informa a coluna na qual o dataframe será indexado\n",
+    "dataset = pd.read_csv(arquivo, sep=',', index_col='date')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dataset = pd.read_csv(arquivo, sep=',', usecols=['id','date','price','bedrooms'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas_profiling"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "arquivo = 'kc_house_data.csv'\n",
+    "df = pd.read_csv(arquivo, sep=',' ,header=0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pandas_profiling.ProfileReport(df)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " df = pd.read_csv(\"https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pandas_profiling.ProfileReport(df)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import matplotlib.pyplot as plt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pandas_profiling.ProfileReport(df)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "display(pandas_profiling.ProfileReport(df))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pandas_profiling.ProfileReport(df)"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
