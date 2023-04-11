@@ -1,0 +1,6 @@
+Teste de Colesterol dos Colaboradores
+Uma empresa quer verificar como está o nível de colesterol de seus colaboradores para um novo programa da área de Saúde. Para isso, coletou amostras de sangue de 220 funcionários selecionados aleatoriamente, esse levantamento está no arquivo colesterol.xlsx (disponível em Materiais Complementares). Sabendo que é considerado aceitável um nível de colesterol de até 190mg/dL:
+
+a) Construa o histograma e avalie se a distribuição do colesterol dos colaboradores se aproxima da Normal.
+
+b) Realize um Teste de Hipóteses para comparar se a média do colesterol está aceitável ou não.

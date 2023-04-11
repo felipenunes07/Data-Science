@@ -1,0 +1,15 @@
+Aplicação 3: Efeito do Álcool no Reflexo de Motoristas
+Efeito do Álcool no Reflexo de Motoristas
+Foi realizado um estudo para avaliar o efeito do álcool no tempo de reação de motoristas. Para isso, foram selecionados 20 motoristas, e mediu-se o tempo de reação de cada um deles em um percurso controlado. Na sequência cada motorista bebeu 2 cervejas e seu tempo de reação após o consumo do álcool foi novamente medido. Para avaliar se as diferenças nos tempos de reação antes e depois do consumo do álcool são estatisticamente significantes, utilize o arquivo tempo_reacao.xlsx (disponível em Materiais Complementares) e realize as seguintes análises:
+
+a) Construa os histogramas para as medições realizadas antes e depois da ingestão de álcool e avalie se as distribuições se aproximam da Normal.
+
+b) Calcule as medidas resumo dos tempos de reação antes e depois do consumo de álcool: número de observações, média e desvio padrão.
+
+c) Realize um Teste de Hipóteses T Pareado para comparar se o tempo de reação dos motoristas é maior após o consumo de álcool. Para o 
+
+Teste de Hipóteses realize os seguintes passos:
+
+Formule as hipóteses a serem testadas.
+Calcule o p-valor.
+Interprete o resultado do teste considerando um coeficiente de confiança de 5%.

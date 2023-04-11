@@ -1,0 +1,18 @@
+Aplicação 2: Índice de Desenvolvimento Humano
+Índice de Desenvolvimento Humano
+A Secretaria da Educação solicitou a análise do IDHM Educação por região para avaliar se a diferença no índice, observada entre as regiões, é estatisticamente significante. Para isso, consolidou a base de dados das 3 principais regiões a serem avaliadas: Norte, Nordeste e Sul, no arquivo idhm_educacao.xlsx (disponível em Materiais Complementares):
+
+a) Construa os histogramas para cada região e avalie se as distribuições se aproximam da Normal.
+
+b) Calcule as medidas resumo por região: número de observações, média e desvio padrão.
+
+c) Realize um Teste de Hipóteses para comparar se a média do IDHM Educação é diferente entre as regiões:
+
+Nordeste e Sul
+Norte e Nordeste
+Para cada Teste de Hipóteses realize os seguintes passos:
+
+Formule as hipóteses a serem testadas.
+Avalie se as variâncias do IDHM entre as regiões podem ser consideradas iguais para selecionar o teste mais adequado.
+Calcule o p-valor.
+Interprete o resultado do teste considerando um coeficiente de confiança de 5%.
