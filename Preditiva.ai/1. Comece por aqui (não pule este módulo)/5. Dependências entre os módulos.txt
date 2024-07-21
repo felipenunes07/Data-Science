@@ -1,0 +1,27 @@
+Uma dúvida muito comum entre os alunos que estão iniciando seus estudos em técnicas de análise de dados é em relação aos pré-requisitos de cada técnica ou ferramenta. 
+
+Por exemplo: 
+
+Eu preciso entender estatística para aplicar Machine Learning?
+Eu preciso entender matemática para usar estatística?
+Eu preciso entender Python para aplicar a técnica de Regressão Logística?
+Entre outros.
+De fato, compreender bem alguns conceitos exige uma certa precedência em que as coisas devem ser praticadas e estudadas.
+
+Exemplos de precedência:
+
+Para entender análise de correlação, primeiro é preciso entender tabelas, gráficos e medidas resumo;
+Para entender Regressão Linear Múltipla, primeiro é preciso entender estatística descritiva, probabilidades e inferência.
+
+
+Lembre-se de seguir o guia de estudos que apresentamos nas aulas anteriores para saber o que estudar primeiro e no seu tempo. Vai depender da trilha de aprendizado escolhida.
+
+No entanto, caso queira ter uma visão mais completa de todos os módulos desta formação, você também pode acessar o link abaixo e visualizar a ordem de precedência entre todos os módulos.
+
+https://miro.com/app/board/uXjVPcVu1wE=/?share_link_id=879430248633
+
+
+
+Comenta aqui embaixo se tiver alguma dúvida :)
+
+Bons estudos!
